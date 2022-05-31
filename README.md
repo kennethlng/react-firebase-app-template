@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# react-firebase-app-template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+- React v18
+- Firebase v9
+- React Router v6
+- Continuous deployment using Github actions
+- Jest testing
+
+## Getting Started
+
+In `.github/workflows/firebase-hosting-merge.yml` and `.github/workflows/firebase-hosting-pull-request.yml`, add your Firebase project ID in the Firebase Hosting deploy step.
+
+In the `.firebaserc` config file, add your Firebase project ID.
+
+To enable continuous deployment using Github actions, grab a Firebase service account key and save it as a Github secret with the name `FIREBASE_SERVICE_ACCOUNT`.
 
 ## Available Scripts
 
